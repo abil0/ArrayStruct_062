@@ -34,19 +34,19 @@ int main()
         cout << "Umur Mahasiswa = ";
         cin >> mhs[i].umur;
         cin.ignore();
-         
+
 
  }
+
+  for (int i = 0; i < 3; i++) {
+        cout << "\nData Mahasiswa ke-" << i + 1 << endl;
+        cout << "\n NIM = " << mhs[i].nim ;
+        cout << "\n Nama = " << mhs[i].nama ;
+        cout << "\n alamat =";
+        cout << "\n desa = " << mhs[i].alamat.desa ;
+        cout <<"\n kota = " << mhs[i].alamat.kota ;
+        cout << "\n Umur = " << mhs[i].umur ;
+  }
     
-
-    cout << endl;
-    cout << "\n NIM = " << mhs.nim ;
-    cout << "\n Nama = " << mhs.nama ;
-    cout << "\n alamat =";
-    cout << "\n desa = " << mhs.alamat.desa ;
-    cout <<"\n kota = " << mhs.alamat.kota ;
-    cout << "\n Umur = " << mhs.umur ;
-
-
     return 0;
 }   
