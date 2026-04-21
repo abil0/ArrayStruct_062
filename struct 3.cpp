@@ -20,9 +20,9 @@ int main()
     Mahasiswa mhs;
 
     cout << "Nomer Mahasiswa= ";
-    cin >> mhs.nim;
+    getline(cin, mhs.nim);
     cout << "Nama Mahasiswa = ";
-    cin >> mhs.nama;
+    getline(cin, mhs.nama);
     cout << "Alamat Mahasiswa = ";
     cout << "\t Nama Desa: ";
     cin >> mhs.alamat.desa;
