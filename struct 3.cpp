@@ -39,4 +39,7 @@ int main()
     cout << "\n desa = " << mhs.alamat.desa ;
     cout <<"\n kota = " << mhs.alamat.kota ;
     cout << "\n Umur = " << mhs.umur ;
+
+
+    return 0;
 }   
