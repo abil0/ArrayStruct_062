@@ -32,10 +32,10 @@ int main()
     
 
 
-    cout << "\n NIM = " << mhs.nim << endl;
-    cout << "\n Nama = " << mhs.nama << endl;
+    cout << "\n NIM = " << mhs.nim ;
+    cout << "\n Nama = " << mhs.nama ;
     cout << "\n alamat =";
     cout << "\n desa = " << mhs.alamat.desa ;
     cout <<"\n kota = " << mhs.alamat.kota ;
-    cout << "\n Umur = " << mhs.umur << endl;
+    cout << "\n Umur = " << mhs.umur ;
 }   
