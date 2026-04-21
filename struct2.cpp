@@ -2,15 +2,15 @@
 using namespace std;
 
 struct DetailAlamat{
-    string Desa;
-    string Kota;
+    string desa;
+    string kota;
 };
 
 struct Mahasiswa 
 {
     string nama;
     string nim;
-    string alamat;
+    DetailAlamat alamat;
     int umur;
 };
 
