@@ -32,6 +32,7 @@ int main()
         cout << "Umur Mahasiswa = ";
         cin >> mhs[i].umur;
         cin.ignore(); 
+        
  }
     
 
